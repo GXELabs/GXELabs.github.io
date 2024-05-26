@@ -1,0 +1,13 @@
+my-portfolio/
+│
+├── public/
+│   ├── uploads/
+│   ├── admin.html
+│   ├── index.html
+│   ├── styles.css
+│   └── script.js
+│
+├── server.js
+└── package.json
+
+username: editor, password: password
