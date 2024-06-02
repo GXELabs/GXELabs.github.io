@@ -1,17 +1,255 @@
 <!DOCTYPE html>
-<html lang="it">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <div class="container">
-        <h1>My Portfolio</h1>
-        <button onclick="window.location.href='/login'">Login</button>
-        <div id="articles"></div>
-    </div>
-    <script src="script.js"></script>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GXE Devs - Home</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#home" class="logo">GXE <span>Devs</span></a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#services">Services</a>
+        <a href="#developers">Developers</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h1>Hi, It's <span>GXE Devs</span></h1>
+        <h3 class="text-animation">We are a <span></span></h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec
+          metus et erat porttitor eleifend in vel ipsum. Nullam et tortor leo.
+          In hac habitasse platea dictumst. Pellentesque habitant morbi
+          tristique senectus et netus et malesuada fames ac turpis egestas. Duis
+          a velit et ipsum molestie semper vitae vel purus. Quisque ac facilisis
+          metus. Cras aliquet lacus lorem, sit amet rutrum diam rutrum vitae.
+          Donec at placerat ex, a lobortis justo. Pellentesque at justo in metus
+          feugiat rhoncus. Proin nec cursus nisi. Morbi odio odio, porttitor et
+          metus a, tempor ullamcorper urna. Nunc pharetra quis massa vitae
+          convallis.
+        </p>
+
+        <div class="social-icons">
+          <a href="#"><i class="bx bxl-linkedin"></i></a>
+          <a href="#"><i class="bx bxl-github"></i></a>
+          <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+          <a href="#"><i class="bx bxl-twitter"></i></a>
+          <a href="#"><i class="bx bxl-discord-alt"></i></a>
+        </div>
+
+        <div class="btn-group">
+          <a href="#contact" class="btn">Contact</a>
+        </div>
+      </div>
+      <div class="home-img">
+        <img src="./assets/images/logo.png" alt="" />
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <h2 class="heading">Projects</h2>
+      <div class="timeline-items">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2024</div>
+          <div class="timeline-content">
+            <h3>Lorem ipsum</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec
+              metus et erat porttitor eleifend in vel ipsum. Nullam et tortor
+              leo. In hac habitasse platea dictumst.
+            </p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2024</div>
+          <div class="timeline-content">
+            <h3>Lorem ipsum</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec
+              metus et erat porttitor eleifend in vel ipsum. Nullam et tortor
+              leo. In hac habitasse platea dictumst.
+            </p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2024</div>
+          <div class="timeline-content">
+            <h3>Lorem ipsum</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec
+              metus et erat porttitor eleifend in vel ipsum. Nullam et tortor
+              leo. In hac habitasse platea dictumst.
+            </p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2024</div>
+          <div class="timeline-content">
+            <h3>Lorem ipsum</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec
+              metus et erat porttitor eleifend in vel ipsum. Nullam et tortor
+              leo. In hac habitasse platea dictumst.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--------------------------------------------------------------------->
+    <section class="services" id="services">
+      <h2 class="heading">Services</h2>
+      <div class="services-container">
+        <div class="service-box">
+          <div class="service-info">
+            <h4>Lorem ipsum</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec
+              metus et erat porttitor eleifend in vel ipsum. Nullam et tortor
+              leo. In hac habitasse platea dictumst.
+            </p>
+          </div>
+        </div>
+        <div class="service-box">
+          <div class="service-info">
+            <h4>Lorem ipsum</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec
+              metus et erat porttitor eleifend in vel ipsum. Nullam et tortor
+              leo. In hac habitasse platea dictumst.
+            </p>
+          </div>
+        </div>
+        <div class="service-box">
+          <div class="service-info">
+            <h4>Lorem ipsum</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec
+              metus et erat porttitor eleifend in vel ipsum. Nullam et tortor
+              leo. In hac habitasse platea dictumst.
+            </p>
+          </div>
+        </div>
+        <div class="service-box">
+          <div class="service-info">
+            <h4>Lorem ipsum</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec
+              metus et erat porttitor eleifend in vel ipsum. Nullam et tortor
+              leo. In hac habitasse platea dictumst.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="developers" id="developers">
+      <div class="developers-box">
+        <h2 class="heading">Developers</h2>
+        <div class="wrapper">
+          <div class="developer-item">
+            <img src="./assets/images/vincenzi.png" alt="" />
+            <h2>Vincenzi Diego</h2>
+            <div class="developer-social-icons">
+              <a href="#"><i class="bx bxl-linkedin"></i></a>
+              <a href="#"><i class="bx bxl-github"></i></a>
+              <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+              <a href="#"><i class="bx bxl-twitter"></i></a>
+            </div>
+            <p>
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+              nec metus et erat porttitor eleifend in vel ipsum. Nullam et
+              tortor leo. In hac habitasse platea dictumst."
+            </p>
+          </div>
+          <div class="developer-item">
+            <img src="./assets/images/fedoruc.png" alt="" />
+            <h2>Fedoruc Artemie</h2>
+            <div class="developer-social-icons">
+              <a href="#"><i class="bx bxl-linkedin"></i></a>
+              <a href="#"><i class="bx bxl-github"></i></a>
+              <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+              <a href="#"><i class="bx bxl-twitter"></i></a>
+            </div>
+            <p>
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+              nec metus et erat porttitor eleifend in vel ipsum. Nullam et
+              tortor leo. In hac habitasse platea dictumst."
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+
+      <form onsubmit="sendEmail(); reset(); return false;">
+        <div class="input-group">
+          <div class="input-box">
+            <input type="text" placeholder="Full Name" />
+            <input type="email" placeholder="Email" id="email" />
+          </div>
+          <div class="input-box">
+            <input type="numer" placeholder="Phone Number" />
+            <input type="text" placeholder="Subject" id="subject" />
+          </div>
+        </div>
+        <div class="input-group-2">
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Your Massage"
+          ></textarea>
+          <input type="submit" value="Send Message" class="btn" />
+        </div>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <div class="social">
+        <a href="#"><i class="bx bxl-linkedin"></i></a>
+        <a href="#"><i class="bx bxl-github"></i></a>
+        <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+        <a href="#"><i class="bx bxl-twitter"></i></a>
+      </div>
+      <ul class="list">
+        <li>
+          <a href="#">FAQ</a>
+        </li>
+        <li>
+          <a href="#">Services</a>
+        </li>
+        <li>
+          <a href="#">About Me</a>
+        </li>
+        <li>
+          <a href="#">Contact</a>
+        </li>
+        <li>
+          <a href="#">Developers</a>
+        </li>
+      </ul>
+      <p class="copyright">Lorem ipsum</p>
+    </footer>
+    <script src="./js/smtp.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
 </html>
