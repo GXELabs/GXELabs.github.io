@@ -1,11 +1,11 @@
-function sendEmail() {
+function send() {
   Email.send({
     Host: "smtp.elasticemail.com",
     Username: "gxelabs@gmail.com",
-    Password: "GX3R3publ1c!?!",
+    Password: "1BD9C0AAAD017C034B79697B6CA855C31D44",
     To: "gxelabs@gmail.com",
     From: document.getElementById("email").value,
-    Subject: document.getElementById("subject").value,
+    Subject: "This is the subject",
     Body: "And this is the body",
   }).then((message) => alert(message));
 }
